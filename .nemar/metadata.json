@@ -1,0 +1,111 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Ji-Hoon Jeong": {},
+    "Jeong-Hyun Cho": {},
+    "Young-Eun Lee": {},
+    "Seo-Hyun Lee": {},
+    "Gi-Hwan Shin": {},
+    "Young-Seok Kweon": {},
+    "Jose del R. Millan": {},
+    "Klaus-Robert Muller": {},
+    "Seong-Whan Lee": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.3389/fnhum.2022.898300",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000184",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000184",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "BCIComp2020WalkingERP",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "83.6 MB (46 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "This dataset comprises EEG recordings from 15 healthy participants performing a visual P300 oddball task while walking on a treadmill at 1.6 m/s. The study includes simultaneous scalp-EEG (46 channels), ear-EEG (14 channels, 7 per ear), electrooculography (4 channels), and inertial measurement unit recordings (6 channels: 3-axis accelerometer and gyroscope) sampled at 100 Hz. Data were collected as part of BCI Competition 2020 Track 5 to evaluate brain-computer interface performance under ambulatory conditions, with trials temporally divided into training, validation, and test sets.",
+  "methods_description": "Participants performed a visual oddball P300 paradigm with target ('OOO') and non-target ('XXX') stimuli (target ratio 0.2) while walking on a treadmill at 1.6 m/s. EEG was recorded from 46 scalp channels (standard 10-20 montage) plus 14 ear-EEG channels (7 per ear), 4 EOG channels, and 6 IMU channels (3-axis accelerometer and gyroscope) at 100 Hz sampling rate. Data were epoched from -190 ms to +800 ms around stimulus onset.",
+  "keywords": [
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "https://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "ambulatory BCI"
+    },
+    {
+      "term": "walking"
+    },
+    {
+      "term": "treadmill"
+    },
+    {
+      "term": "ear-EEG"
+    },
+    {
+      "term": "electrooculography"
+    },
+    {
+      "term": "inertial measurement unit"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "BCI competition"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "ERP"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "BCI Competition 2020"
+    }
+  ],
+  "source_hash": "6572ef92933c559c7a88444929df1d20865a81e5ff7df29ccad50d3100b53da0"
+}
