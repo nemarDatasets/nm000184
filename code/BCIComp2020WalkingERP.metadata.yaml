@@ -1,0 +1,157 @@
+_dataset:
+  class: BCIComp2020WalkingERP
+  code: BCIComp2020WalkingERP
+  doi: 10.3389/fnhum.2022.898300
+  interval:
+  - -0.19
+  - 0.8
+  n_subjects: 15
+  paradigm: p300
+acquisition:
+  channel_types:
+    eeg: 46
+    eog: 4
+    misc: 6
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 56
+  sampling_rate: 100.0
+  sensors:
+  - Fp1
+  - Fp2
+  - AFz
+  - F7
+  - F3
+  - Fz
+  - F4
+  - F8
+  - FC5
+  - FC1
+  - FC2
+  - FC6
+  - C3
+  - Cz
+  - C4
+  - CP5
+  - CP1
+  - CP2
+  - CP6
+  - P7
+  - P3
+  - Pz
+  - P4
+  - P8
+  - PO7
+  - PO3
+  - POz
+  - PO4
+  - PO8
+  - O1
+  - Oz
+  - O2
+  - HEOGL
+  - HEOGR
+  - VEOGU
+  - VEOGL
+  - L1
+  - L2
+  - L4
+  - L5
+  - L6
+  - L7
+  - L9
+  - L10
+  - R1
+  - R2
+  - R4
+  - R5
+  - R7
+  - R8
+  - AccX
+  - AccY
+  - AccZ
+  - GyroX
+  - GyroY
+  - GyroZ
+data_processed: true
+data_structure:
+  n_trials: 300
+  trials_context: 15 subjects * 300 trials/subject temporally split into 180 training / 60 validation / 60 test.
+documentation:
+  associated_paper_doi: 10.3389/fnhum.2022.898300
+  contact_info:
+  - bcicompetition2020@gmail.com
+  country: KR
+  data_url: https://osf.io/pq7vb/
+  description: 'BCI Competition 2020 Track 5: P300 oddball ERP detection during walking at 1.6 m/s with simultaneous scalp-EEG,
+    ear-EEG, EOG and forehead IMU recording.'
+  doi: 10.3389/fnhum.2022.898300
+  institution: Korea University
+  investigators:
+  - Ji-Hoon Jeong
+  - Jeong-Hyun Cho
+  - Young-Eun Lee
+  - Seo-Hyun Lee
+  - Gi-Hwan Shin
+  - Young-Seok Kweon
+  - Jose del R. Millan
+  - Klaus-Robert Muller
+  - Seong-Whan Lee
+  keywords:
+  - P300
+  - ERP
+  - ambulatory BCI
+  - walking
+  - ear-EEG
+  - IMU
+  - BCI competition
+  license: CC-BY-4.0
+  publication_year: 2022
+  repository: OSF
+experiment:
+  class_labels:
+  - NonTarget
+  - Target
+  events:
+    NonTarget: 1
+    Target: 2
+  mode: offline
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual character (OOO target, XXX non-target)
+  study_design: Visual oddball P300 (target 'OOO' vs non-target 'XXX', target ratio 0.2) performed while walking on a treadmill
+    at 1.6 m/s to pose an ambulatory BCI problem.
+  synchronicity: synchronous
+  trial_duration: 1.0
+file_format: MAT
+paradigm_specific:
+  detected_paradigm: p300
+participants:
+  age_max: 32
+  age_min: 19
+  gender:
+    female: 4
+    male: 11
+  health_status: healthy
+  n_subjects: 15
+  species: human
+preprocessing:
+  data_state: preprocessed
+  preprocessing_applied: true
+  preprocessing_steps:
+  - 100 Hz sampling rate
+  - epoched from -190 ms to +800 ms around stimulus
+runs_per_session: 3
+sessions_per_subject: 1
+tags:
+  modality:
+  - P300
+  pathology:
+  - Healthy
+  type:
+  - Research
+  - Competition
+  - Ambulatory
