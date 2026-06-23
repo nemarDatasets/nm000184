@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "BCI Competition 2020 Track 5 — ERP during walking (scalp, ear-EEG, and IMU)",
-  "description": "This dataset comprises EEG recordings from 15 healthy participants performing a visual P300 oddball task while walking on a treadmill at 1.6 m/s. The study includes simultaneous acquisition from scalp EEG (46 channels), ear-EEG (6 channels), EOG (4 channels), and forehead-mounted IMU sensors, sampled at 100 Hz. The dataset was collected for BCI Competition 2020 Track 5 to evaluate brain-computer interface performance in ambulatory conditions, with 300 trials per subject (180 training, 60 validation, 60 test) and preprocessed data epoched from -190 ms to +800 ms around visual stimulus presentation.",
-  "methods_description": "Data were acquired at 100 Hz sampling rate from 56 channels including scalp EEG (46 channels, standard 10-05 montage), ear-EEG (6 channels), EOG (4 channels), and IMU sensors (3-axis accelerometer and gyroscope). Participants performed a visual oddball P300 task with target ('OOO') and non-target ('XXX') stimuli (target probability 0.2) while walking on a treadmill at 1.6 m/s. Trials were epoched from -190 ms to +800 ms around stimulus onset. Data were preprocessed and sampled at 100 Hz with 50 Hz line frequency filtering.",
+  "description": "This BIDS-formatted derivative dataset comprises EEG recordings from 15 healthy participants performing a visual P300 oddball task during treadmill walking at 1.6 m/s. The study includes simultaneous scalp-EEG (46 channels), ear-EEG (14 channels), electrooculography (4 channels), and inertial measurement unit recordings (6 channels) sampled at 100 Hz. Data were collected as part of BCI Competition 2020 Track 5 to evaluate brain-computer interface performance under ambulatory conditions. Trials are temporally divided into training, validation, and test sets.",
+  "methods_description": "Participants performed a visual oddball P300 paradigm with target ('OOO') and non-target ('XXX') stimuli (target ratio 0.2) while walking on a treadmill at 1.6 m/s. EEG was recorded from 46 scalp channels (standard 10-20 montage) plus 14 ear-EEG channels (7 per ear), 4 EOG channels, and 6 IMU channels (3-axis accelerometer and gyroscope) at 100 Hz sampling rate. Data were epoched from -190 ms to +800 ms around stimulus onset. Trials were divided into training, validation, and test sets.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,25 +19,25 @@
   },
   "keywords": [
     {
-      "term": "Evoked Potentials, P300",
+      "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018981"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "P300"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "event-related potentials"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "EEG"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "ambulatory BCI"
+      "term": "ambulatory EEG"
     },
     {
       "term": "ear-EEG"
@@ -49,19 +49,22 @@
       "term": "walking"
     },
     {
-      "term": "treadmill"
+      "term": "ERP"
     },
     {
       "term": "BCI competition"
     },
     {
-      "term": "ambulatory task"
-    },
-    {
       "term": "oddball paradigm"
     },
     {
-      "term": "dual-task"
+      "term": "treadmill"
+    },
+    {
+      "term": "locomotion"
+    },
+    {
+      "term": "electrooculography"
     }
   ],
   "related_identifiers": [
@@ -112,5 +115,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d3177f9946f082afc9d55e506b5f92ea0deef28d9e167b8438b7c9f6bc693364"
+  "source_hash": "64318e9c1b5f710023d8c5e77757ab37b75a4bb1651df3fc677438703f418b1b"
 }
