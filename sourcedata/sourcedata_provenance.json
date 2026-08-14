@@ -1,0 +1,90 @@
+{
+ "dataset": "nm000184",
+ "moabb_class": "BCIComp2020WalkingERP",
+ "moabb_version_used": "1.5.0dev0",
+ "retrieved": "2026-08-13",
+ "retrieved_by": "moabb.datasets.BCIComp2020WalkingERP.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-bcicomp2020walkingerp-data/download",
+ "license": "CC-BY-4.0",
+ "doi": "10.3389/fnhum.2022.898300",
+ "naming": "upstream_filenames_restored",
+ "n_files": 15,
+ "total_bytes": 150406519,
+ "files": [
+  {
+   "file": "2r6mf",
+   "bytes": 9870699,
+   "sha256": "a8aabf48a72b77505e93c53856959be4cee70188b53399728db716a837aa2ee0"
+  },
+  {
+   "file": "3sf6g",
+   "bytes": 10088302,
+   "sha256": "41c9b29420a999b3cc65c6c05040c0a1ce4958740c1a2342de0f6482a61abcf1"
+  },
+  {
+   "file": "59a83",
+   "bytes": 10114516,
+   "sha256": "67190ad0cfe4859d9b54510f80b89090f9ba190faa9a785079f6a139bc18188f"
+  },
+  {
+   "file": "5a9x4",
+   "bytes": 10028666,
+   "sha256": "3ea936d98eef780a2f406f4c1ace6d6ee6db9a86d571b0db75b1f194798e51c6"
+  },
+  {
+   "file": "9ctqg",
+   "bytes": 10027076,
+   "sha256": "f87a711f59e82c5c9abf67fc92a80fe5b4d1b983a321de0d5ffb33ae113652d6"
+  },
+  {
+   "file": "9yzks",
+   "bytes": 10013170,
+   "sha256": "8ef95fec7824b7734875709f0d3978d15c3723d066599375b1a33298eff439d9"
+  },
+  {
+   "file": "apqg6",
+   "bytes": 9673757,
+   "sha256": "8359d2cb6705c4bb3a2172108c45a59d308af5d8b8c69a82430a16a5d97a1ebe"
+  },
+  {
+   "file": "buk9z",
+   "bytes": 10114557,
+   "sha256": "51c6cf484604aec2a3d916916a8a5849f7544081b50696d2300571eb6cbe65a2"
+  },
+  {
+   "file": "e7nvw",
+   "bytes": 9987418,
+   "sha256": "7f98524abc74e6a587875274e33d4cda37845af5f45b31cd05bc82f747e3de63"
+  },
+  {
+   "file": "pmrh6",
+   "bytes": 10080090,
+   "sha256": "7b48d780f47bfab3a282ee9063b8fea97ea6db6f170246a28ce5939772f0b6c7"
+  },
+  {
+   "file": "v27j9",
+   "bytes": 10099005,
+   "sha256": "a9e73e042c56c09370e3ed2e3a28ff1439eef35de39bb02c0e2322e1ede7516a"
+  },
+  {
+   "file": "wmbde",
+   "bytes": 10064668,
+   "sha256": "d8e8c1c38f26034fe2b3bee7d025437e6011956a49d0557c764cae32f92c9a7a"
+  },
+  {
+   "file": "wumb8",
+   "bytes": 10065347,
+   "sha256": "b26cb83c90927b7da62c6dfe4b072d179854abc8a67e0e197b6247a663f45fc5"
+  },
+  {
+   "file": "xyq7a",
+   "bytes": 10100006,
+   "sha256": "f22e47f21b60a65d8611b84df445c2fe02cc59693505a3b8530337abd881d5ba"
+  },
+  {
+   "file": "y2nsk",
+   "bytes": 10079242,
+   "sha256": "c0211c344f263db46a2e68cfc2fa067284a5de17de4af29c00a6570c9224be85"
+  }
+ ]
+}
