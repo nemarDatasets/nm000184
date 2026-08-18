@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "BCI Competition 2020 Track 5 — ERP during walking (scalp, ear-EEG, and IMU)",
-  "description": "This dataset comprises EEG recordings from 15 healthy participants performing a visual P300 oddball task during treadmill walking at 1.6 m/s. The study includes simultaneous scalp-EEG (46 channels), ear-EEG (14 channels), electrooculography (4 channels), and inertial measurement unit recordings (6 channels) sampled at 100 Hz. The dataset was collected as part of BCI Competition 2020 Track 5 to evaluate brain-computer interface performance under ambulatory conditions. This BIDS-formatted version was converted from the original BCI Competition 2020 data (hosted on OSF at https://osf.io/pq7vb/) using the MOABB pipeline.",
-  "methods_description": "Participants performed a visual oddball P300 paradigm with target ('OOO') and non-target ('XXX') stimuli (target ratio 0.2) while walking on a treadmill at 1.6 m/s. EEG was recorded from 46 scalp channels (standard 10-20 montage) plus 14 ear-EEG channels (7 per ear), 4 EOG channels, and 6 IMU channels (3-axis accelerometer and gyroscope) at 100 Hz sampling rate. Data were epoched from -190 ms to +800 ms around stimulus onset.",
+  "description": "This dataset comprises EEG recordings from 15 healthy participants performing a visual P300 oddball task during treadmill walking at 1.6 m/s. The study includes simultaneous scalp-EEG (46 channels), ear-EEG (14 channels), electrooculography (4 channels), and inertial measurement unit recordings (6 channels) sampled at 100 Hz. This BIDS-formatted dataset was converted from the original BCI Competition 2020 Track 5 data (https://osf.io/pq7vb/) using the MOABB pipeline and re-hosted on NEMAR.",
+  "methods_description": "Participants performed a visual oddball P300 paradigm with target ('OOO') and non-target ('XXX') stimuli (target ratio 0.2) while walking on a treadmill at 1.6 m/s. EEG was recorded from 46 scalp channels (standard 10-20 montage) plus 14 ear-EEG channels (7 per ear), 4 EOG channels, and 6 IMU channels (3-axis accelerometer and gyroscope) at 100 Hz sampling rate. Data were epoched from -190 ms to +800 ms around stimulus onset. The dataset was originally collected as part of BCI Competition 2020 Track 5.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,22 +19,31 @@
   },
   "keywords": [
     {
-      "term": "Event-Related Potentials, P300",
+      "term": "Event-Related Potentials",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "P300"
+      "term": "P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "ERP"
     },
     {
-      "term": "EEG"
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "brain-computer interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
     },
     {
       "term": "ambulatory BCI"
@@ -43,19 +52,22 @@
       "term": "ear-EEG"
     },
     {
-      "term": "electrooculography"
-    },
-    {
       "term": "inertial measurement unit"
     },
     {
-      "term": "walking"
+      "term": "walking",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000072797"
+    },
+    {
+      "term": "oddball paradigm"
     },
     {
       "term": "treadmill"
     },
     {
-      "term": "BCI competition"
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -110,5 +122,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "4271f77f570c39955025d8f2312b378377e7d037f53bf5efa5d281e6167f732d"
+  "source_hash": "e10a476df6bd5ddba548dc1b014dcee4335bcf9035725c2d17607beb2716c31c"
 }
