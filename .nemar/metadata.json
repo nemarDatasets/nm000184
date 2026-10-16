@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BCI Competition 2020 Track 5 — ERP during walking (scalp, ear-EEG, and IMU)",
-  "description": "EEG recordings from 15 healthy participants performing a visual P300 oddball task while walking on a treadmill at 1.6 m/s. The dataset combines 46-channel scalp EEG, 14-channel ear-EEG, 4 EOG channels, and 6 IMU channels sampled at 100 Hz. It was released as BCI Competition 2020 Track 5 to evaluate brain-computer interface performance under ambulatory conditions, with trials divided temporally into training, validation, and test sets.",
-  "methods_description": "Participants viewed target ('OOO') and non-target ('XXX') stimuli (target ratio 0.2) while walking on a treadmill at 1.6 m/s. Scalp EEG (46 channels, 10-20 montage), ear-EEG (7 channels per ear), 4 EOG channels, and 6 IMU channels (3-axis accelerometer and gyroscope) were recorded at 100 Hz. Data were epoched from -190 ms to +800 ms around stimulus onset.",
+  "description": "EEG recordings from 15 healthy participants performing a visual P300 oddball task while walking on a treadmill at 1.6 m/s. The dataset combines 46-channel scalp EEG, 14-channel ear-EEG, EOG, and 6-channel inertial measurement unit signals. It was released for BCI Competition 2020 Track 5 to evaluate brain-computer interface performance under ambulatory conditions, with trials split temporally into training, validation, and test sets.",
+  "methods_description": "Participants viewed target ('OOO') and non-target ('XXX') visual stimuli (target ratio 0.2) while walking on a treadmill at 1.6 m/s. Data were recorded from 46 scalp EEG channels (10-20 montage), 14 ear-EEG channels (7 per ear), 4 EOG channels, and 6 IMU channels (3-axis accelerometer and gyroscope) at 100 Hz. Epochs span -190 ms to +800 ms around stimulus onset.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,29 +19,27 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH"
+      "term": "EEG"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH"
+      "term": "P300"
     },
     {
-      "term": "Walking",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH"
+      "term": "event-related potentials"
     },
     {
       "term": "ear-EEG"
     },
     {
-      "term": "inertial measurement unit"
+      "term": "Walking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016138"
     },
     {
-      "term": "ambulatory BCI"
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "inertial measurement unit"
     }
   ],
   "related_identifiers": [
@@ -76,7 +74,7 @@
     "eeg"
   ],
   "sizes": [
-    "223 MB (61 files)"
+    "366 MB (91 files)"
   ],
   "formats": [
     ".edf",
@@ -86,5 +84,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "3830bfb1bdfecb5779a5160f63288a53c018379e15cb65e06b721c8cfbd751d5"
+  "source_hash": "ab51fa853d69ad24b3baec0f5ee2fcc6351b6849cc815df5b3fe5575c8138cbb"
 }
