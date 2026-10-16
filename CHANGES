@@ -1,0 +1,6 @@
+1.0.5 2026-10-16
+  - sourcedata: added the validation and test files of all 15 subjects (30 files, 149,834,981 bytes)
+    from OSF project pq7vb (2020 International BCI Competition, Track #5 (EEG / ear-EEG ERP detection during walking)), stored under their
+    OSF file ids like the existing training files. The loader (moabb.datasets.BCIComp2020WalkingERP) reads all
+    three splits; size, MD5 and SHA-256 checked against the OSF API. No existing file changed; the
+    BIDS tree is unchanged.
